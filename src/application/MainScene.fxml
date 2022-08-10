@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.General">
+   <children>
+      <BorderPane fx:id="changer" layoutX="14.0" layoutY="14.0" styleClass="background" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" stylesheets="@application.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" prefHeight="18.0" prefWidth="291.0" styleClass="header" text="WELCOME TO LIFA PLAZA" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Calibri Bold" size="24.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <ScrollPane hbarPolicy="NEVER" maxHeight="1000.0" prefHeight="800.0" prefWidth="200.0" stylesheets="@application.css" BorderPane.alignment="TOP_LEFT">
+               <content>
+                  <VBox minHeight="400.0" minWidth="200.0" prefHeight="800.0" prefWidth="200.0" styleClass="background" stylesheets="@application.css">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0" styleClass="background" stylesheets="@application.css" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ImageView fx:id="movie" fitHeight="200.0" fitWidth="200.0" onMouseClicked="#onclick" pickOnBounds="true" preserveRatio="true" styleClass="background" HBox.hgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@icons8-cinema.gif" />
+                                 </image>
+                                 <effect>
+                                    <Blend />
+                                 </effect>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0" styleClass="background" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ImageView fx:id="gym" fitHeight="200.0" fitWidth="200.0" onMouseClicked="#onclick" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@icons8-deadlift.gif" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <ImageView fx:id="spa" fitHeight="200.0" fitWidth="200.0" onMouseClicked="#onclick" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@facial-treatment.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <ImageView fx:id="receiptfx" fitHeight="200.0" fitWidth="200.0" onMouseClicked="#onclick" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                                 <image>
+                                    <Image url="@cheque.gif" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <ImageView fitHeight="200.0" fitWidth="200.0" onMouseClicked="#onclick">
+                           <image>
+                              <Image url="@icons8-cinema.gif" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </left>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="85.0" layoutY="102.0" text="please select a service from the left scroll bar" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

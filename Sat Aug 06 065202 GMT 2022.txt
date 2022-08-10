@@ -1,0 +1,13 @@
+You have selected the following services 
+Comedy
+2000
+Comedy
+2000
+Action
+2300
+Horror
+1500
+
+Your total is: D7800
+	Thanks for visiting LIFA PLAZA
+Sat Aug 06 06:52:02 GMT 2022

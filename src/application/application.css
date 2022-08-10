@@ -1,0 +1,34 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.background {
+    -fx-background-color: cyan;
+    -fx-color: black;
+}
+
+.header {
+    -fx-background-color: white;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+}
+
+.border {
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-border-width: 10%;
+    -fx-border-color: white;
+}
+
+.category:hover {
+    -fx-background-color: white;
+}
+
+.category:active {
+    -fx-border-width: 100%;
+    -fx-border-color: black;
+    -fx-background-color: black;
+ 
+}
+
+.reciept {
+    -fx-background-color: white;
+    -fx-color: cyan;
+}

@@ -1,0 +1,3 @@
+Horror,1500,Comedy,2000,Action,2300
+Pedicure,2800,Medicure,2600,Sauna,5000
+Regular Membership,1000,Membership with trainer,2600,Boxing,2000

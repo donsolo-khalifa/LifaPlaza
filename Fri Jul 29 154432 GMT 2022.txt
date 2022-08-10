@@ -1,0 +1,14 @@
+You have selected the following services 
+Action
+2300
+Horror
+1500
+Comedy
+2000
+Medicure
+2600
+Sauna
+5000
+
+Your total is: D13400
+	Thanks for visiting LIFA PLAZA

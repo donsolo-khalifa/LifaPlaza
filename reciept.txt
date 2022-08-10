@@ -1,0 +1,2 @@
+[Action, 1500, Comedy, 2000, Horror, 2300]
+Your total is: D5800
